@@ -1,0 +1,49 @@
+name: vChatUtil
+author: TheFBI
+version: 0.1
+main: me.thefbi.venom.Main
+description: Chat utils
+commands:
+  clearchat:
+  mutechat:
+  ipcheck:
+  ping:
+  ts:
+  website:
+  teamspeak:
+  schedulerestart:
+  cancelrestart:
+  creeper:
+  
+permissions:
+  venom.mutechat.bypass:
+    description: Bypass mutechat
+    default: op
+  venom.clearchat:
+    description: Use clearchat
+    default: op
+  venom.ipcheck:
+    description: Use ipcheck
+    default: op
+  venom.mutechat:
+    description: Use mutechat
+    default: op
+  venom.helpers:
+    description: Identify helpers
+    default: false
+  venom.devs:
+    description: Identify devs 
+    default: false
+  venom.mods:
+    description: Identify mods
+    default: false
+  venom.admins:
+    description: Identify admins
+    default: false
+  venom.schedulerestart:
+    description: Schedule a restart
+    default: op
+  venom.forbiddenpotions.override
+    description: Override potio limitation
+    default: false             
+  
